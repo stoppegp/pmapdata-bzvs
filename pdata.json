@@ -291,5 +291,43 @@
       "lat":  48.8771,
       "lon":  9.6352
     }]
+},
+{
+    "name": "Kreis Schwäbisch Hall",
+    "slug": "kreis-schwaebisch-hall",
+    "gebiet": {
+        "typ": "kreis",
+        "nr": "08127",
+        "geojson": "kreis08127"
+    },
+    "treffen": [{
+        "name": "Stammtisch Schwäbisch Hall",
+        "slug": "stammtisch-schwaebisch-hall",
+        "ort": "YangTse, Schenkenseestr. 72, 74523 Schwäbisch Hall",
+        "termin": {
+            "text": "unregelmäßig",
+            "quelle": {
+                "typ": "wiki",
+                "wiki": "https://wiki.piratenpartei.de/BW:Stammtisch_Kocher-Jagst-Piraten",
+                "ort": "Schwäbisch Hall"
+            }
+        },
+        "lat": 49.111554,
+        "lon": 9.7550882
+    }, {
+        "name": "Stammtisch Crailsheim",
+        "slug": "stammtisch-crailsheim",
+        "ort": "Beat Bowl Crailsheim, Wittauerstrasse 1, 74564 Crailsheim",
+        "termin": {
+            "text": "unregelmäßig",
+            "quelle": {
+                "typ": "wiki",
+                "wiki": "https://wiki.piratenpartei.de/BW:Stammtisch_Kocher-Jagst-Piraten",
+                "ort": "Crailsheim"
+            }
+        },
+        "lat": 49.130911,
+        "lon": 10.063824
+    }]
 }]
 
