@@ -12,7 +12,7 @@
   "treffen": [{
       "name": "Vorstandssitzung",
       "slug": "vorstandssitzung",
-      "ort":  "üblicherweise im Mumbe",
+      "ort":  "üblicherweise im Mumble",
       "termin": {
         "quelle": {
           "typ":  "ical",
@@ -201,8 +201,9 @@
   "treffen": [{
       "name": "Stammtisch Öhringen",
       "slug": "stammtisch-oehringen",
+      "ort":  "Sportsbar im Sporthotel Öhringen, An der Lehmgrube 17, 74613 Öhringen",
       "termin": {
-        "text": "Mittwochs, alle acht Wochen, Sportsbar im Sporthotel Öhringen",
+        "text": "Mittwochs, alle acht Wochen",
         "quelle": {
           "typ":  "wiki",
           "wiki": "http://wiki.piratenpartei.de/BW:Stammtisch_Hohenlohe",
@@ -214,8 +215,9 @@
     },{
       "name": "Stammtisch Künzelsau",
       "slug": "stammtisch-kuenzelsau",
+      "ort":  "Dimi's Hellas Gyros, Hauptstraße 70, 74653 Künzelsau",
       "termin": {
-        "text": "Mittwochs, alle acht Wochen, Dimi's Hellas Gyros",
+        "text": "Mittwochs, alle acht Wochen",
         "quelle": {
           "typ":  "wiki",
           "wiki": "http://wiki.piratenpartei.de/BW:Stammtisch_Hohenlohe",
