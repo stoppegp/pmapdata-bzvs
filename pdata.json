@@ -201,7 +201,7 @@
   "treffen": [{
       "name": "Stammtisch Öhringen",
       "slug": "stammtisch-oehringen",
-      "ort":  "Sportsbar im Sporthotel Öhringen, An der Lehmgrube 17, 74613 Öhringen",
+      "ort":  "Biergarten am Strandbad H2Ö, Rendelstraße 31, Öhringen",
       "termin": {
         "text": "Mittwochs, alle acht Wochen",
         "quelle": {
@@ -210,12 +210,12 @@
           "ort":  "Öhringen"
         }
       },
-      "lat":  49.2049,
-      "lon":  9.4884
+      "lat":  49.197764,
+      "lon":  9.512627
     },{
       "name": "Stammtisch Künzelsau",
       "slug": "stammtisch-kuenzelsau",
-      "ort":  "Biergarten am Kocherfreibad, Künzelsau",
+      "ort":  "OXN Bistro Bar, Haupstr. 15, Künzelsau",
       "termin": {
         "text": "Mittwochs, alle acht Wochen",
         "quelle": {
@@ -224,8 +224,8 @@
           "ort":  "Künzelsau"
         }
       },
-      "lat":  49.2801,
-      "lon":  9.6904
+      "lat":  49.278762,
+      "lon":  9.695563
     },{
       "name": "Stammtisch Ingelfingen",
       "slug": "stammtisch-ingelfingen",
