@@ -204,6 +204,7 @@
   "treffen": [{
       "name": "Stammtisch Ludwigsburg",
       "slug": "stammtisch-ludwigsburg",
+      "ort": "\"Die Griechin\", Leonberger Straße 23, Ludwigsburg",
       "termin": {
         "text": "jeden 3. Freitag im Monat, 20 Uhr, \"Die Griechin\"",
         "quelle": {
