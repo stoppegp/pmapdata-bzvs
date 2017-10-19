@@ -34,9 +34,10 @@
   "email":  "info@piratenpartei-stuttgart.de",
   "twitter":  "Piraten_S",
   "text": "",
-  "icals":  [
-    "http://www.piratenpartei-stuttgart.de/?plugin=all-in-one-event-calendar&controller=ai1ec_exporter_controller&action=export_events&no_html=true"
-    ],
+  "icals":  [{
+        "url": "http://www.piratenpartei-stuttgart.de/?plugin=all-in-one-event-calendar&controller=ai1ec_exporter_controller&action=export_events&no_html=true",
+        "exclude": ["ludwigsburg"]
+    }],
   "treffen": [{
       "name": "Piratentreff Stuttgart-West",
       "slug": "piratentreff-west",
