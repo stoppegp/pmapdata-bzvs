@@ -1,306 +1,109 @@
 [{
-  "name": "Bezirksverband Stuttgart",
-  "slug": "bzv-stuttgart",
-  "img": "piratenbzvstgt.png",
-  "homepage": "http://www.piraten-bzv-stuttgart.de",
-  "email":  "vorstand@piraten-bzv-stuttgart.de",
-  "twitter":  "PiratenBzvStgt",
-  "text": "",
-  "icals":  [
-    "https://calendar.google.com/calendar/ical/7umkmcdkvpt7un16l8sd0to5os%40group.calendar.google.com/public/basic.ics"
-    ],
-  "treffen": [{
-      "name": "Vorstandssitzung",
-      "slug": "vorstandssitzung",
-      "ort":  "üblicherweise im Mumble",
-      "termin": {
-        "quelle": {
-          "typ":  "ical",
-          "ical": "https://calendar.google.com/calendar/ical/7umkmcdkvpt7un16l8sd0to5os%40group.calendar.google.com/public/basic.ics",
-          "suchworte":  ["Vorstandssitzung"]
-        }
-      }
-    }]
+    "name": "Bezirksverband Stuttgart",
+    "slug": "bzv-stuttgart",
+    "img": "piratenbzvstgt.png",
+    "homepage": "http://www.piraten-bzv-stuttgart.de",
+    "email":  "vorstand@piraten-bzv-stuttgart.de",
+    "twitter":  "PiratenBzvStgt",
+    "text": "",
+    "events": {
+        "ical":  [
+            "https://calendar.google.com/calendar/ical/7umkmcdkvpt7un16l8sd0to5os%40group.calendar.google.com/public/basic.ics"
+        ]
+    }
 },{
-  "name": "Kreisverband Stuttgart",
-  "slug": "kv-stuttgart",
-  "img": "kreis08111.png",
-  "gebiet": {
-    "typ":  "kreis",
-    "nr": "08111",
-    "geojson": "kreis08111"
-  },
-  "homepage": "http://www.piratenpartei-stuttgart.de/",
-  "email":  "info@piratenpartei-stuttgart.de",
-  "twitter":  "Piraten_S",
-  "text": "",
-  "icals":  [{
-        "url": "http://www.piratenpartei-stuttgart.de/?plugin=all-in-one-event-calendar&controller=ai1ec_exporter_controller&action=export_events&no_html=true",
-        "exclude": ["ludwigsburg"]
-    }],
-  "treffen": [{
-      "name": "Piratentreff Stuttgart-West",
-      "slug": "piratentreff-west",
-      "ort": "Taverna Yol, Spittastraße 2, 70193 Stuttgart",
-      "termin": {
-        "text": "Jeden zweiten Donnerstag im Monat, 20 Uhr",
-        "quelle": {
-          "typ":  "ical",
-          "ical": "http://www.piratenpartei-stuttgart.de/?plugin=all-in-one-event-calendar&controller=ai1ec_exporter_controller&action=export_events&no_html=true",
-          "suchworte":  ["Piratentreff-West"]
-        }
-      },
-      "lat":  48.77509,
-      "lon":  9.15175
-    },{
-      "name": "Stammtisch Filder",
-      "slug": "stammtisch-filder",
-      "ort": "Kanonenbäck, Rathausstraße 5, 70565 Stuttgart",
-      "termin": {
-        "text": "jeden vierten Dienstag im Monat, 19 Uhr",
-        "quelle": {
-          "typ":  "ical",
-          "ical": "http://www.piratenpartei-stuttgart.de/?plugin=all-in-one-event-calendar&controller=ai1ec_exporter_controller&action=export_events&no_html=true",
-          "suchworte":  ["Stammtisch Filder"]
-        }
-      },
-      "lat":  48.7180,
-      "lon":  9.1056
-    },{
-      "name": "Landesgeschäftsstelle",
-      "slug": "landesgeschaeftsstelle",
-      "ort": "Stöckachstraße 53, 70190 Stuttgart",
-      "termin": {
-        "text": "üblicherweise jeden Montag ab 19 Uhr geöffnet",
-        "quelle": {
-          "typ":  "ical",
-          "ical": "http://www.piratenpartei-stuttgart.de/?plugin=all-in-one-event-calendar&controller=ai1ec_exporter_controller&action=export_events&no_html=true",
-          "suchworte":  ["Orgatreffen", "OpenSpace"]
-        }
-      },
-      "lat":  48.79225,
-      "lon":  9.20233
-    }]
-},{
-  "name": "Kreis Esslingen",
-  "slug": "kreis-esslingen",
-  "img": "kreis08116.png",
-  "gebiet": {
-    "typ":  "kreis",
-    "nr": "08116",
-    "geojson": "kreis08116"
-  },
-  "treffen": [{
-      "name": "Stammtisch Nürtingen",
-      "slug": "stammtisch-nuertingen",
-      "termin": {
-        "text": "Samstags alle 2 Wochen, 19 Uhr, Schlachthof in Nürtingen",
-        "quelle": {
-          "typ":  "wiki",
-          "wiki": "http://wiki.piratenpartei.de/Stammtisch_N%C3%BCrtingen",
-          "ort":  "Nürtingen"
-        }
-      },
-      "lat":  48.62971,
-      "lon":  9.33387
-    }]
-},{
-  "name": "Kreis Göppingen",
-  "slug": "kreis-goeppingen",
-  "twitter":  "Piraten_GP",
-  "img": "kreis08117.png",
-  "gebiet": {
-    "typ":  "kreis",
-    "nr": "08117",
-    "geojson": "kreis08117"
-  },
-  "homepage": "http://piratenpartei-gp.de",
-  "email":  "info@piratenpartei-gp.de",
-  "text": "Die Piraten treffen sich seit 2009 regelmäßig in Göppingen.  Zu allen unseren Treffen kann jeder Interessent einfach unangemeldet vorbeischauen und mitdiskutieren! Egal ob du Pirat oder Sympathisant bist, uns kritisch gegenüberstehst oder gar einer anderen Partei angehörst: Du bist herzlich eingeladen, dir ein eigenes Bild von unseren Aktivitäten zu machen und mit uns zu diskutieren. Wir freuen uns über Gäste!",
-  "icals":  [
-    "https://calendar.google.com/calendar/ical/i96m7pkltimlcuabnslnpteb60%40group.calendar.google.com/public/basic.ics",
-    "https://calendar.google.com/calendar/ical/0cuje95f68f2j12tc83rr6p9ls%40group.calendar.google.com/public/basic.ics"
-    ],
-  "treffen": [{
-      "name": "Piratentreff Göppingen",
-      "slug": "piratentreff-goeppingen",
-      "ort":	"Pizzeria Toscana, Mittlere Karlstraße 126, 73033 Göppingen",
-      "termin": {
-        "text": "Mittwochs in geraden KW, um 19 Uhr",
-        "quelle": {
-          "typ":  "ical",
-          "ical": "https://calendar.google.com/calendar/ical/i96m7pkltimlcuabnslnpteb60%40group.calendar.google.com/public/basic.ics",
-          "suchworte":  ["Göppingen"]
-        }
-      },
-      "lat":  48.70121,
-      "lon":  9.65883
-    }]
-},{
-  "name": "Hohenlohekreis",
-  "slug": "hohenlohekreis",
-  "img": "kreis08126.png",
-  "twitter":  "PiratenHoK",
-  "gebiet": {
-    "typ":  "kreis",
-    "nr": "08126",
-    "geojson": "kreis08126"
-  },
-  "homepage": "http://wiki.piratenpartei.de/BW:Stammtisch_Hohenlohe",
-  "text": "Im Hohenlohekreis finden zur Zeit leider keine regelmäßigen Treffen statt. Bei interesse melde dich bitte beim <a href='mailto:vorstand@piraten-bzv-stuttgart.de'>Bezirksvorstand</a>.",
-  "_treffen": [{
-      "name": "Stammtisch Öhringen",
-      "slug": "stammtisch-oehringen",
-      "ort":  "Biergarten am Strandbad H2Ö, Rendelstraße 31, Öhringen",
-      "termin": {
-        "text": "Mittwochs, alle acht Wochen",
-        "quelle": {
-          "typ":  "wiki",
-          "wiki": "http://wiki.piratenpartei.de/BW:Stammtisch_Hohenlohe",
-          "ort":  "Öhringen"
-        }
-      },
-      "lat":  49.197764,
-      "lon":  9.512627
-    },{
-      "name": "Stammtisch Künzelsau",
-      "slug": "stammtisch-kuenzelsau",
-      "ort":  "OXN Bistro Bar, Haupstr. 15, Künzelsau",
-      "termin": {
-        "text": "Mittwochs, alle acht Wochen",
-        "quelle": {
-          "typ":  "wiki",
-          "wiki": "http://wiki.piratenpartei.de/BW:Stammtisch_Hohenlohe",
-          "ort":  "Künzelsau"
-        }
-      },
-      "lat":  49.278762,
-      "lon":  9.695563
-    },{
-      "name": "Stammtisch Ingelfingen",
-      "slug": "stammtisch-ingelfingen",
-      "ort":    "Restaurant Sonneck",
-      "termin": {
-        "text": "Unregelmäßig",
-        "quelle": {
-          "typ":  "wiki",
-          "wiki": "http://wiki.piratenpartei.de/BW:Stammtisch_Hohenlohe",
-          "ort":  "Ingelfingen"
-        }
-      },
-      "lat":  49.3001011,
-      "lon":  9.6468544
-    }]
-},{
-  "name": "Kreis Ludwigsburg",
-  "slug": "kreis-ludwigsburg",
-  "img": "kreis08118.png",
-  "twitter":  "Piraten_LB",
-  "gebiet": {
-    "typ":  "kreis",
-    "nr": "08118",
-    "geojson": "kreis08118"
-  },
-  "homepage": "http://wiki.piratenpartei.de/BW:Ludwigsburg/Stammtisch",
-  "treffen": [{
-      "name": "Stammtisch Ludwigsburg",
-      "slug": "stammtisch-ludwigsburg",
-      "ort": "\"Die Griechin\", Leonberger Straße 23, Ludwigsburg",
-      "termin": {
-        "text": "jeden 3. Freitag im Monat, 20 Uhr, \"Die Griechin\"",
-        "quelle": {
-          "typ":  "wiki",
-          "wiki": "http://wiki.piratenpartei.de/BW:Ludwigsburg/Stammtisch",
-          "ort":  "Ludwigsburg"
-        }
-      },
-      "lat":  48.89091,
-      "lon":  9.19039
-    }]
-},{
-  "name": "Rems-Murr-Kreis",
-  "slug": "rems-murr-kreis",
-  "img": "kreis08119.png",
-  "gebiet": {
-    "typ":  "kreis",
-    "nr": "08119",
-    "geojson": "kreis08119"
-  },
-  "homepage": "http://piraten-rmk.de",
-  "treffen": [{
-      "name": "Stammtisch Waiblingen",
-      "slug": "stammtisch-waiblingen",
-      "ort": "P13 Pool-Bistro,  Albert-Roller-Straße 7, Waiblingen",
-      "termin": {
-        "text": "alle vier Wochen, dienstags, 19 Uhr",
-        "quelle": {
-            "typ": "ical",
-            "ical": "https://calendar.google.com/calendar/ical/4o6cgi55aakts4q9n0n338it38%40group.calendar.google.com/public/basic.ics",
-            "suchworte": ["Waiblingen"]
-        }
-      },
-      "lat":  48.83027,
-      "lon":  9.31320
-    },{
-      "name": "Stammtisch Winnenden",
-      "slug": "stammtisch-winnenden",
-      "ort": "Gaststätte Balkan-Grill im Obergeschoss Marktstraße 10 in Winnenden",
-      "termin": {
-        "text": "alle vier Wochen, montags, 19 Uhr",
-        "quelle": {
-            "typ": "ical",
-            "ical": "https://calendar.google.com/calendar/ical/4o6cgi55aakts4q9n0n338it38%40group.calendar.google.com/public/basic.ics",
-            "suchworte": ["Winnenden"]
-        }
-      },
-      "lat":  48.87663,
-      "lon":  9.39706
-    },{
-      "name": "Stammtisch Welzheim",
-      "slug": "stammtisch-welzheim",
-      "termin": {
-        "text": "unregemäßig"
-      },
-      "lat":  48.8771,
-      "lon":  9.6352
-    }]
-},
-{
-    "name": "Kreis Schwäbisch Hall",
-    "slug": "kreis-schwaebisch-hall",
+    "name": "Kreisverband Stuttgart",
+    "slug": "kv-stuttgart",
+    "img": "kreis08111.png",
     "gebiet": {
-        "typ": "kreis",
-        "nr": "08127",
-        "geojson": "kreis08127"
+      "typ":  "kreis",
+      "nr": "08111",
+      "geojson": "kreis08111"
     },
-    "treffen": [{
-        "name": "Stammtisch Schwäbisch Hall",
-        "slug": "stammtisch-schwaebisch-hall",
-        "ort": "YangTse, Schenkenseestr. 72, 74523 Schwäbisch Hall",
-        "termin": {
-            "text": "unregelmäßig",
-            "quelle": {
-                "typ": "wiki",
-                "wiki": "https://wiki.piratenpartei.de/BW:Stammtisch_Kocher-Jagst-Piraten",
-                "ort": "Schwäbisch Hall"
-            }
-        },
-        "lat": 49.111554,
-        "lon": 9.7550882
-    }, {
-        "name": "Stammtisch Crailsheim",
-        "slug": "stammtisch-crailsheim",
-        "ort": "Beat Bowl Crailsheim, Wittauerstrasse 1, 74564 Crailsheim",
-        "termin": {
-            "text": "unregelmäßig",
-            "quelle": {
-                "typ": "wiki",
-                "wiki": "https://wiki.piratenpartei.de/BW:Stammtisch_Kocher-Jagst-Piraten",
-                "ort": "Crailsheim"
-            }
-        },
-        "lat": 49.130911,
-        "lon": 10.063824
-    }]
+    "homepage": "http://www.piratenpartei-stuttgart.de/",
+    "email":  "info@piratenpartei-stuttgart.de",
+    "twitter":  "Piraten_S",
+    "text": "",
+    "events": {
+        "ical":  [{
+            "url": "http://www.piratenpartei-stuttgart.de/?plugin=all-in-one-event-calendar&controller=ai1ec_exporter_controller&action=export_events&no_html=true",
+            "exclude": ["ludwigsburg"]
+        }]
+    }
+},{
+    "name": "Kreis Esslingen",
+    "slug": "kreis-esslingen",
+    "img": "kreis08116.png",
+    "gebiet": {
+        "typ":  "kreis",
+        "nr": "08116",
+        "geojson": "kreis08116"
+    },
+    "events": {
+        "wiki": [{
+            "url": "http://wiki.piratenpartei.de/Stammtisch_N%C3%BCrtingen",
+            "ort":  "Nürtingen"
+        }]
+    }
+},{
+    "name": "Kreis Göppingen",
+    "slug": "kreis-goeppingen",
+    "twitter":  "Piraten_GP",
+    "img": "kreis08117.png",
+    "gebiet": {
+        "typ":  "kreis",
+        "nr": "08117",
+        "geojson": "kreis08117"
+    },
+    "homepage": "http://piratenpartei-gp.de",
+    "email":  "info@piratenpartei-gp.de",
+    "text": "Die Piraten treffen sich seit 2009 regelmäßig in Göppingen.  Zu allen unseren Treffen kann jeder Interessent einfach unangemeldet vorbeischauen und mitdiskutieren! Egal ob du Pirat oder Sympathisant bist, uns kritisch gegenüberstehst oder gar einer anderen Partei angehörst: Du bist herzlich eingeladen, dir ein eigenes Bild von unseren Aktivitäten zu machen und mit uns zu diskutieren. Wir freuen uns über Gäste!",
+    "events": {
+        "ical":  [
+            "https://calendar.google.com/calendar/ical/i96m7pkltimlcuabnslnpteb60%40group.calendar.google.com/public/basic.ics",
+            "https://calendar.google.com/calendar/ical/0cuje95f68f2j12tc83rr6p9ls%40group.calendar.google.com/public/basic.ics"
+        ]
+    }  
+},{
+    "name": "Hohenlohekreis",
+    "slug": "hohenlohekreis",
+    "img": "kreis08126.png",
+    "twitter":  "PiratenHoK",
+    "gebiet": {
+        "typ":  "kreis",
+        "nr": "08126",
+        "geojson": "kreis08126"
+    },
+    "homepage": "http://wiki.piratenpartei.de/BW:Stammtisch_Hohenlohe",
+    "text": "Im Hohenlohekreis finden zur Zeit leider keine regelmäßigen Treffen statt. Bei interesse melde dich bitte beim <a href='mailto:vorstand@piraten-bzv-stuttgart.de'>Bezirksvorstand</a>."
+},{
+    "name": "Kreis Ludwigsburg",
+    "slug": "kreis-ludwigsburg",
+    "img": "kreis08118.png",
+    "twitter":  "Piraten_LB",
+    "gebiet": {
+        "typ":  "kreis",
+        "nr": "08118",
+        "geojson": "kreis08118"
+    },
+    "homepage": "http://wiki.piratenpartei.de/BW:Ludwigsburg/Stammtisch",
+    "events": {
+        "wiki": [{
+            "url": "http://wiki.piratenpartei.de/BW:Ludwigsburg/Stammtisch",
+            "ort":  "Ludwigsburg"
+        }]
+    }
+},{
+    "name": "Rems-Murr-Kreis",
+    "slug": "rems-murr-kreis",
+    "img": "kreis08119.png",
+    "gebiet": {
+        "typ":  "kreis",
+        "nr": "08119",
+        "geojson": "kreis08119"
+    },
+    "homepage": "http://piraten-rmk.de",
+    "events": {
+        "ical": ["https://calendar.google.com/calendar/ical/4o6cgi55aakts4q9n0n338it38%40group.calendar.google.com/public/basic.ics"]
+    }
 }]
-
