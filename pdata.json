@@ -106,4 +106,15 @@
     "events": {
         "ical": ["https://calendar.google.com/calendar/ical/4o6cgi55aakts4q9n0n338it38%40group.calendar.google.com/public/basic.ics"]
     }
+},{
+    "name": "Ostalbkreis",
+    "slug": "ostalbkreis",
+    "gebiet": {
+        "typ":  "kreis",
+        "nr": "08136",
+        "geojson": "kreis08136"
+    },
+    "events": {
+        "ical": ["https://calendar.google.com/calendar/ical/ltnaog4bdt6qqjadusshmeujeg%40group.calendar.google.com/public/basic.ics"]
+    }
 }]
