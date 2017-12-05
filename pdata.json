@@ -2,6 +2,7 @@
     "name": "Bezirksverband Stuttgart",
     "slug": "bzv-stuttgart",
     "img": "piratenbzvstgt.png",
+    "img-social": "piratenbzvstgt.png",
     "homepage": "http://www.piraten-bzv-stuttgart.de",
     "email":  "vorstand@piraten-bzv-stuttgart.de",
     "twitter":  "PiratenBzvStgt",
@@ -15,6 +16,7 @@
     "name": "Kreisverband Stuttgart",
     "slug": "kv-stuttgart",
     "img": "kreis08111.png",
+    "img-social": "kreis08111-social.png",
     "gebiet": {
       "typ":  "kreis",
       "nr": "08111",
@@ -34,6 +36,7 @@
     "name": "Kreis Esslingen",
     "slug": "kreis-esslingen",
     "img": "kreis08116.png",
+    "img-social": "kreis08116.png",
     "gebiet": {
         "typ":  "kreis",
         "nr": "08116",
@@ -50,6 +53,7 @@
     "slug": "kreis-goeppingen",
     "twitter":  "Piraten_GP",
     "img": "kreis08117.png",
+    "img-social": "kreis08117-social.png",
     "gebiet": {
         "typ":  "kreis",
         "nr": "08117",
@@ -68,6 +72,7 @@
     "name": "Hohenlohekreis",
     "slug": "hohenlohekreis",
     "img": "kreis08126.png",
+    "img-social": "kreis08126.png",
     "twitter":  "PiratenHoK",
     "gebiet": {
         "typ":  "kreis",
@@ -80,6 +85,7 @@
     "name": "Kreis Ludwigsburg",
     "slug": "kreis-ludwigsburg",
     "img": "kreis08118.png",
+    "img-social": "kreis08118-social.png",
     "twitter":  "Piraten_LB",
     "gebiet": {
         "typ":  "kreis",
@@ -97,6 +103,7 @@
     "name": "Rems-Murr-Kreis",
     "slug": "rems-murr-kreis",
     "img": "kreis08119.png",
+    "img-social": "kreis08119-social.png",
     "gebiet": {
         "typ":  "kreis",
         "nr": "08119",
