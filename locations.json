@@ -1,0 +1,11 @@
+[{
+    "name": "Landesgeschäftsstelle",
+    "strasse": "Stöckachstraße",
+    "nr":   "53",
+    "ort":   "Stuttgart",
+    "plz":  "70190",
+    "loc": {
+        "lat":  48.7922631,
+        "lng":  9.202351
+    }
+}]
